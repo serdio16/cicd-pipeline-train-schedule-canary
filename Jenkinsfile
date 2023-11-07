@@ -1,6 +1,7 @@
 pipeline {
     agent any
     environment {
+        
         DOCKER_IMAGE_NAME = "serdio07/train-schedule"
     }
     stages {
