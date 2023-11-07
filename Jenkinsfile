@@ -1,7 +1,6 @@
 pipeline {
     agent any
     environment {
-        //be sure to replace "serdio07" with your own Docker Hub username
         DOCKER_IMAGE_NAME = "serdio07/train-schedule"
     }
     stages {
